@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery App UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Optional Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top bar -->
+        <header class="top-bar">
+            <div class="logo">
+                Food<span>Dash</span>
+            </div>
+            <button class="profile-btn">KD</button>
+        </header>
+
+        <!-- Hero / Search section -->
+        <section class="hero">
+            <p class="tagline">Craving something?</p>
+            <h1>Order fresh food at your <span>doorstep</span></h1>
+
+            <form class="search-bar">
+                <span class="icon">📍</span>
+                <input type="text" placeholder="Enter your location" />
+                <button type="submit">Find Food</button>
+            </form>
+
+            <div class="filters">
+                <button class="chip chip-active">🔥 Trending</button>
+                <button class="chip">🍕 Pizza</button>
+                <button class="chip">🍔 Burgers</button>
+                <button class="chip">🍰 Dessert</button>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="section">
+            <div class="section-header">
+                <h2>Popular Categories</h2>
+                <a href="#">View all</a>
+            </div>
+
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">🍕</div>
+                    <span>Pizza</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍔</div>
+                    <span>Burgers</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍜</div>
+                    <span>Asian</span>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🥗</div>
+                    <span>Healthy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurants -->
+        <section class="section">
+            <div class="section-header">
+                <h2>Nearby Restaurants</h2>
+                <a href="#">See more</a>
+            </div>
+
+            <div class="cards-list">
+                <article class="restaurant-card">
+                    <div class="restaurant-img img-1"></div>
+                    <div class="restaurant-info">
+                        <h3>Italiano Kitchen</h3>
+                        <p class="subtitle">Italian • Pasta • Pizza</p>
+                        <div class="meta-row">
+                            <span>⭐ 4.6</span>
+                            <span>•</span>
+                            <span>30–40 min</span>
+                            <span>•</span>
+                            <span>₹200 for one</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="restaurant-card">
+                    <div class="restaurant-img img-2"></div>
+                    <div class="restaurant-info">
+                        <h3>Burger Hub</h3>
+                        <p class="subtitle">Fast Food • Fries</p>
+                        <div class="meta-row">
+                            <span>⭐ 4.3</span>
+                            <span>•</span>
+                            <span>25–35 min</span>
+                            <span>•</span>
+                            <span>₹150 for one</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="restaurant-card">
+                    <div class="restaurant-img img-3"></div>
+                    <div class="restaurant-info">
+                        <h3>Sweet tooth</h3>
+                        <p class="subtitle">Cakes • Ice Cream</p>
+                        <div class="meta-row">
+                            <span>⭐ 4.8</span>
+                            <span>•</span>
+                            <span>20–30 min</span>
+                            <span>•</span>
+                            <span>₹250 for one</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Bottom navigation -->
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-label">Search</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🧾</span>
+                <span class="nav-label">Orders</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">👤</span>
+                <span class="nav-label">Profile</span>
+            </a>
+        </nav>
+    </div>
+</body>
+</html>
